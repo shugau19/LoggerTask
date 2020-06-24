@@ -1,0 +1,6 @@
+C:\Users\Shubham Gaurav\source\repos\LoggerPackage2\LoggerPackage2\bin\Debug\netcoreapp3.1\LoggerPackage2.deps.json
+C:\Users\Shubham Gaurav\source\repos\LoggerPackage2\LoggerPackage2\bin\Debug\netcoreapp3.1\LoggerPackage2.dll
+C:\Users\Shubham Gaurav\source\repos\LoggerPackage2\LoggerPackage2\obj\Debug\netcoreapp3.1\LoggerPackage2.csprojAssemblyReference.cache
+C:\Users\Shubham Gaurav\source\repos\LoggerPackage2\LoggerPackage2\obj\Debug\netcoreapp3.1\LoggerPackage2.AssemblyInfoInputs.cache
+C:\Users\Shubham Gaurav\source\repos\LoggerPackage2\LoggerPackage2\obj\Debug\netcoreapp3.1\LoggerPackage2.AssemblyInfo.cs
+C:\Users\Shubham Gaurav\source\repos\LoggerPackage2\LoggerPackage2\bin\Debug\netcoreapp3.1\NLog.config

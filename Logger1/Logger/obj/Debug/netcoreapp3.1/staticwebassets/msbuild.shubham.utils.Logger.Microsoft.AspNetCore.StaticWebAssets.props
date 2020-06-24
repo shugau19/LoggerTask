@@ -1,0 +1,11 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\**">
+      <SourceType>Package</SourceType>
+      <SourceId>shubham.utils.Logger</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/shubham.utils.Logger</BasePath>
+      <RelativePath>%(RecursiveDir)%(FileName)%(Extension)</RelativePath>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>
