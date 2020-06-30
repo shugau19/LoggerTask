@@ -27,6 +27,72 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj": {
+                "projectPath": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj",
+        "projectName": "LoggerPack",
+        "projectPath": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj",
+        "packagesPath": "C:\\Users\\Shubham Gaurav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shubham Gaurav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Shubham Gaurav\\source\\repos\\LoggerPackage\\LoggerPackage\\bin\\Debug\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -39,9 +105,37 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "LoggerPackage": {
+            "Microsoft.AspNetCore.Hosting": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.6.4, )"
+            },
+            "Sentry.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Sentry.NLog": {
+              "target": "Package",
+              "version": "[2.1.4, )"
             }
           },
           "imports": [

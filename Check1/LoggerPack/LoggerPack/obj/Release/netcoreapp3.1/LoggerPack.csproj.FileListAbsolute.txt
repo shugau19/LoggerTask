@@ -1,0 +1,10 @@
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\bin\Release\netcoreapp3.1\LoggerPack.deps.json
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\bin\Release\netcoreapp3.1\LoggerPack.dll
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\bin\Release\netcoreapp3.1\LoggerPack.pdb
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\obj\Release\netcoreapp3.1\LoggerPack.csprojAssemblyReference.cache
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\obj\Release\netcoreapp3.1\LoggerPack.AssemblyInfoInputs.cache
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\obj\Release\netcoreapp3.1\LoggerPack.AssemblyInfo.cs
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\obj\Release\netcoreapp3.1\LoggerPack.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\obj\Release\netcoreapp3.1\LoggerPack.dll
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\obj\Release\netcoreapp3.1\LoggerPack.pdb
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\bin\Release\netcoreapp3.1\NLog.config

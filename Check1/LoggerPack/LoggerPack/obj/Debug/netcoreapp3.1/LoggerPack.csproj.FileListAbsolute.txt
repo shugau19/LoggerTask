@@ -1,0 +1,16 @@
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\LoggerPack.deps.json
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\LoggerPack.dll
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.csprojAssemblyReference.cache
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.AssemblyInfoInputs.cache
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.AssemblyInfo.cs
+C:\Users\Shubham Gaurav\source\repos\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\LoggerPack.deps.json
+C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\LoggerPack.dll
+C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\LoggerPack.pdb
+C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.csprojAssemblyReference.cache
+C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.AssemblyInfoInputs.cache
+C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.AssemblyInfo.cs
+C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.dll
+C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.pdb
