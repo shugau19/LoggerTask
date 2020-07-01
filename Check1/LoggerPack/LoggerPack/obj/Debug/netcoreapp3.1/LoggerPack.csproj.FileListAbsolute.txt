@@ -14,3 +14,13 @@ C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\obj\Debug\netc
 C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.csproj.CoreCompileInputs.cache
 C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.dll
 C:\Users\Shubham Gaurav\source\repos\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.pdb
+D:\NowFloats\LoggerTask\Check1\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\NLog.config
+D:\NowFloats\LoggerTask\Check1\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\LoggerPack.deps.json
+D:\NowFloats\LoggerTask\Check1\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\LoggerPack.dll
+D:\NowFloats\LoggerTask\Check1\LoggerPack\LoggerPack\bin\Debug\netcoreapp3.1\LoggerPack.pdb
+D:\NowFloats\LoggerTask\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.csprojAssemblyReference.cache
+D:\NowFloats\LoggerTask\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.AssemblyInfoInputs.cache
+D:\NowFloats\LoggerTask\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.AssemblyInfo.cs
+D:\NowFloats\LoggerTask\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.csproj.CoreCompileInputs.cache
+D:\NowFloats\LoggerTask\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.dll
+D:\NowFloats\LoggerTask\Check1\LoggerPack\LoggerPack\obj\Debug\netcoreapp3.1\LoggerPack.pdb

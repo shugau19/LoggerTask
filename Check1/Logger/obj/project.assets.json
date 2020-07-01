@@ -1,0 +1,285 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "Sentry/2.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "Sentry.PlatformAbstractions": "1.1.0",
+          "Sentry.Protocol": "2.1.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Sentry.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sentry.dll": {}
+        }
+      },
+      "Sentry.NLog/2.1.4": {
+        "type": "package",
+        "dependencies": {
+          "NLog": "4.5.11",
+          "Sentry": "2.1.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Sentry.NLog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sentry.NLog.dll": {}
+        }
+      },
+      "Sentry.PlatformAbstractions/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Sentry.PlatformAbstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sentry.PlatformAbstractions.dll": {}
+        }
+      },
+      "Sentry.Protocol/2.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Sentry.Protocol.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sentry.Protocol.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "NLog/4.7.2": {
+      "sha512": "tfZNTOYr0TwvJNrXsJsVdZPSgIpYN1rXHnAZAadeaIbz+v18agNCCxgZXnXQqNKNizkogJ68zYTNKavyQFWwrg==",
+      "type": "package",
+      "path": "nlog/4.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/NLog.dll",
+        "lib/monoandroid44/NLog.xml",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40-client/NLog.dll",
+        "lib/net40-client/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/netstandard1.3/NLog.dll",
+        "lib/netstandard1.3/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "lib/wp8/NLog.dll",
+        "lib/wp8/NLog.xml",
+        "lib/xamarinios10/NLog.dll",
+        "lib/xamarinios10/NLog.xml",
+        "nlog.4.7.2.nupkg.sha512",
+        "nlog.nuspec"
+      ]
+    },
+    "Sentry/2.1.4": {
+      "sha512": "b8CHLGst7aZkHucYu20aCRFvnBKTxOUI8O399TmDubzZzD+LfHBsv2IV5ehNd0DmHx0+VJq1Uds3hzDJhl3w0A==",
+      "type": "package",
+      "path": "sentry/2.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Sentry.dll",
+        "lib/net461/Sentry.pdb",
+        "lib/net461/Sentry.xml",
+        "lib/netstandard2.0/Sentry.dll",
+        "lib/netstandard2.0/Sentry.pdb",
+        "lib/netstandard2.0/Sentry.xml",
+        "sentry.2.1.4.nupkg.sha512",
+        "sentry.nuspec"
+      ]
+    },
+    "Sentry.NLog/2.1.4": {
+      "sha512": "v1+WaBLnORCX7IkWZgsdEVb9+tfOMhLibRa4bSoesyu3kZsMNz7jdeKULzVHsbWAiL0O+wSLuuvldDgI9ro43w==",
+      "type": "package",
+      "path": "sentry.nlog/2.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Sentry.NLog.dll",
+        "lib/net461/Sentry.NLog.pdb",
+        "lib/net461/Sentry.NLog.xml",
+        "lib/netstandard2.0/Sentry.NLog.dll",
+        "lib/netstandard2.0/Sentry.NLog.pdb",
+        "lib/netstandard2.0/Sentry.NLog.xml",
+        "sentry.nlog.2.1.4.nupkg.sha512",
+        "sentry.nlog.nuspec"
+      ]
+    },
+    "Sentry.PlatformAbstractions/1.1.0": {
+      "sha512": "4fhSK6bImR2IDXGCUAupMeN5ILcOSVv9CygagU0vgwsByhcOEnAcB1K69gMXkvBgGkM8FczY+y5fdtCDKfLFMA==",
+      "type": "package",
+      "path": "sentry.platformabstractions/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Sentry.PlatformAbstractions.dll",
+        "lib/net40/Sentry.PlatformAbstractions.dll",
+        "lib/net45/Sentry.PlatformAbstractions.dll",
+        "lib/net471/Sentry.PlatformAbstractions.dll",
+        "lib/netstandard1.5/Sentry.PlatformAbstractions.dll",
+        "lib/netstandard2.0/Sentry.PlatformAbstractions.dll",
+        "sentry.platformabstractions.1.1.0.nupkg.sha512",
+        "sentry.platformabstractions.nuspec"
+      ]
+    },
+    "Sentry.Protocol/2.1.4": {
+      "sha512": "Ba4rGIwMvk7G6nT9mlkwzzSiPjBE71jPJ8nNfFxZRFuqkAU2u67vynOusG59LD7yiu31a2LownQEeE3IG544IQ==",
+      "type": "package",
+      "path": "sentry.protocol/2.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Sentry.Protocol.dll",
+        "lib/net45/Sentry.Protocol.pdb",
+        "lib/net45/Sentry.Protocol.xml",
+        "lib/net46/Sentry.Protocol.dll",
+        "lib/net46/Sentry.Protocol.pdb",
+        "lib/net46/Sentry.Protocol.xml",
+        "lib/netstandard1.3/Sentry.Protocol.dll",
+        "lib/netstandard1.3/Sentry.Protocol.pdb",
+        "lib/netstandard1.3/Sentry.Protocol.xml",
+        "lib/netstandard2.0/Sentry.Protocol.dll",
+        "lib/netstandard2.0/Sentry.Protocol.pdb",
+        "lib/netstandard2.0/Sentry.Protocol.xml",
+        "sentry.protocol.2.1.4.nupkg.sha512",
+        "sentry.protocol.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "NLog >= 4.7.2",
+      "Sentry.NLog >= 2.1.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\NowFloats\\LoggerTask\\Check1\\Logger\\Logger.csproj",
+      "projectName": "Logger",
+      "projectPath": "D:\\NowFloats\\LoggerTask\\Check1\\Logger\\Logger.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\NowFloats\\LoggerTask\\Check1\\Logger\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.withfloats.com/api/v2": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "NLog": {
+            "target": "Package",
+            "version": "[4.7.2, )"
+          },
+          "Sentry.NLog": {
+            "target": "Package",
+            "version": "[2.1.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -4,22 +4,22 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+using Logger;
+using NLog;
 
 namespace Check1.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
-
-        public IndexModel(ILogger<IndexModel> logger)
+        
+        public IndexModel()
         {
-            _logger = logger;
+        
         }
 
         public void OnGet()
         {
-            _logger.LogError("This is the error from Check1");
+            Class1.Write(LogLevel.Error, new Exception("This is the exception"), "Testing Nlog");
         }
     }
 }

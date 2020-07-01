@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "r0ye9e8LRj1hNC9s6YGfgchxHVJv2i7xhkpiLpt34TpWoW4Fm3Ct/QSzOLGYf4lBn5+TNs6h3dvdAF9lK6qCXg==",
+  "success": true,
+  "projectFilePath": "D:\\NowFloats\\LoggerTask\\Check1\\Logger\\Logger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\sentry\\2.1.4\\sentry.2.1.4.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\sentry.nlog\\2.1.4\\sentry.nlog.2.1.4.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\sentry.platformabstractions\\1.1.0\\sentry.platformabstractions.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\sentry.protocol\\2.1.4\\sentry.protocol.2.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}

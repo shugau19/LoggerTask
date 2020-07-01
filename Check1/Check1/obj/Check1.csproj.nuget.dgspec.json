@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\Check1\\Check1.csproj": {}
+    "D:\\NowFloats\\LoggerTask\\Check1\\Check1\\Check1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\Check1\\Check1.csproj": {
+    "D:\\NowFloats\\LoggerTask\\Check1\\Check1\\Check1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\Check1\\Check1.csproj",
+        "projectUniqueName": "D:\\NowFloats\\LoggerTask\\Check1\\Check1\\Check1.csproj",
         "projectName": "Check1",
-        "projectPath": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\Check1\\Check1.csproj",
-        "packagesPath": "C:\\Users\\Shubham Gaurav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\Check1\\obj\\",
+        "projectPath": "D:\\NowFloats\\LoggerTask\\Check1\\Check1\\Check1.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\NowFloats\\LoggerTask\\Check1\\Check1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Shubham Gaurav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +25,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Shubham Gaurav\\source\\repos\\LoggerPackage\\LoggerPackage\\bin\\Debug\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.withfloats.com/api/v2": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj": {
-                "projectPath": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj"
+              "D:\\NowFloats\\LoggerTask\\Check1\\Logger\\Logger.csproj": {
+                "projectPath": "D:\\NowFloats\\LoggerTask\\Check1\\Logger\\Logger.csproj"
               }
             }
           }
@@ -70,17 +73,20 @@
         }
       }
     },
-    "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj": {
+    "D:\\NowFloats\\LoggerTask\\Check1\\Logger\\Logger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj",
-        "projectName": "LoggerPack",
-        "projectPath": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj",
-        "packagesPath": "C:\\Users\\Shubham Gaurav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\obj\\",
+        "projectUniqueName": "D:\\NowFloats\\LoggerTask\\Check1\\Logger\\Logger.csproj",
+        "projectName": "Logger",
+        "projectPath": "D:\\NowFloats\\LoggerTask\\Check1\\Logger\\Logger.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\NowFloats\\LoggerTask\\Check1\\Logger\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Shubham Gaurav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +94,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Shubham Gaurav\\source\\repos\\LoggerPackage\\LoggerPackage\\bin\\Debug\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.withfloats.com/api/v2": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -105,33 +111,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.Hosting": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
-            "Microsoft.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
             "NLog": {
               "target": "Package",
               "version": "[4.7.2, )"
-            },
-            "NLog.Config": {
-              "target": "Package",
-              "version": "[4.7.2, )"
-            },
-            "NLog.Extensions.Logging": {
-              "target": "Package",
-              "version": "[1.6.4, )"
-            },
-            "Sentry.AspNetCore": {
-              "target": "Package",
-              "version": "[2.1.4, )"
             },
             "Sentry.NLog": {
               "target": "Package",
@@ -149,9 +131,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

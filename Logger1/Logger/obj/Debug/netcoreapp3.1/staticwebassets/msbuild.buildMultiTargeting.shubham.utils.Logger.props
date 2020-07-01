@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\shubham.utils.Logger.props" />
-</Project>

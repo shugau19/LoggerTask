@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj": {}
+    "D:\\NowFloats\\LoggerTask\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj": {
+    "D:\\NowFloats\\LoggerTask\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj",
+        "projectUniqueName": "D:\\NowFloats\\LoggerTask\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj",
         "projectName": "LoggerPack",
-        "projectPath": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj",
-        "packagesPath": "C:\\Users\\Shubham Gaurav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shubham Gaurav\\source\\repos\\Check1\\LoggerPack\\LoggerPack\\obj\\",
+        "projectPath": "D:\\NowFloats\\LoggerTask\\Check1\\LoggerPack\\LoggerPack\\LoggerPack.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\NowFloats\\LoggerTask\\Check1\\LoggerPack\\LoggerPack\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Shubham Gaurav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Shubham Gaurav\\source\\repos\\LoggerPackage\\LoggerPackage\\bin\\Debug\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.withfloats.com/api/v2": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

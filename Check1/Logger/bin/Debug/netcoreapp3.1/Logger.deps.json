@@ -1,0 +1,126 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Logger/1.0.0": {
+        "dependencies": {
+          "NLog": "4.7.2",
+          "Sentry.NLog": "2.1.4"
+        },
+        "runtime": {
+          "Logger.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "NLog/4.7.2": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.2.11786"
+          }
+        }
+      },
+      "Sentry/2.1.4": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "Sentry.PlatformAbstractions": "1.1.0",
+          "Sentry.Protocol": "2.1.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sentry.dll": {
+            "assemblyVersion": "2.1.4.0",
+            "fileVersion": "2.1.4.0"
+          }
+        }
+      },
+      "Sentry.NLog/2.1.4": {
+        "dependencies": {
+          "NLog": "4.7.2",
+          "Sentry": "2.1.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sentry.NLog.dll": {
+            "assemblyVersion": "2.1.4.0",
+            "fileVersion": "2.1.4.0"
+          }
+        }
+      },
+      "Sentry.PlatformAbstractions/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Sentry.PlatformAbstractions.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Sentry.Protocol/2.1.4": {
+        "runtime": {
+          "lib/netstandard2.0/Sentry.Protocol.dll": {
+            "assemblyVersion": "2.1.4.0",
+            "fileVersion": "2.1.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Logger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "NLog/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tfZNTOYr0TwvJNrXsJsVdZPSgIpYN1rXHnAZAadeaIbz+v18agNCCxgZXnXQqNKNizkogJ68zYTNKavyQFWwrg==",
+      "path": "nlog/4.7.2",
+      "hashPath": "nlog.4.7.2.nupkg.sha512"
+    },
+    "Sentry/2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b8CHLGst7aZkHucYu20aCRFvnBKTxOUI8O399TmDubzZzD+LfHBsv2IV5ehNd0DmHx0+VJq1Uds3hzDJhl3w0A==",
+      "path": "sentry/2.1.4",
+      "hashPath": "sentry.2.1.4.nupkg.sha512"
+    },
+    "Sentry.NLog/2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v1+WaBLnORCX7IkWZgsdEVb9+tfOMhLibRa4bSoesyu3kZsMNz7jdeKULzVHsbWAiL0O+wSLuuvldDgI9ro43w==",
+      "path": "sentry.nlog/2.1.4",
+      "hashPath": "sentry.nlog.2.1.4.nupkg.sha512"
+    },
+    "Sentry.PlatformAbstractions/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4fhSK6bImR2IDXGCUAupMeN5ILcOSVv9CygagU0vgwsByhcOEnAcB1K69gMXkvBgGkM8FczY+y5fdtCDKfLFMA==",
+      "path": "sentry.platformabstractions/1.1.0",
+      "hashPath": "sentry.platformabstractions.1.1.0.nupkg.sha512"
+    },
+    "Sentry.Protocol/2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ba4rGIwMvk7G6nT9mlkwzzSiPjBE71jPJ8nNfFxZRFuqkAU2u67vynOusG59LD7yiu31a2LownQEeE3IG544IQ==",
+      "path": "sentry.protocol/2.1.4",
+      "hashPath": "sentry.protocol.2.1.4.nupkg.sha512"
+    }
+  }
+}
